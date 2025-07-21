@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "showcase": {
+    "Shareview": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "showcase:build:production"
+              "buildTarget": "Shareview:build:production"
             },
             "development": {
-              "buildTarget": "showcase:build:development"
+              "buildTarget": "Shareview:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -88,5 +88,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "d0d86b70-97f8-47b8-9ad0-25f7d0e0fe30"
   }
 }
